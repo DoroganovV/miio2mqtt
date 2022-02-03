@@ -1,0 +1,20 @@
+{
+	"name": "miio2mqtt",
+	"version": "0.0.1",
+
+	"description": "Bridge from Xiaomi Air Fresh A1 to MQTT (Wirenboard)",
+	"author": "Vitaly",
+
+	"scripts": {
+		"start": "node index.js"
+	},
+
+	"dependencies": {
+		"mqtt": "4.1.0",
+		"miio": "0.15.6",
+		"lodash": "4.17.19"
+	},
+
+	"devDependencies": {
+	}
+}
